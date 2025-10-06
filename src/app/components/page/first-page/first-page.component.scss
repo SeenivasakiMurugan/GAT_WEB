@@ -1,0 +1,98 @@
+.row.align-items-start.section {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.col-md-4 {
+    flex: 0 0 33%;
+    text-align: center;
+}
+
+.col-md-8 {
+    flex: 1 !important;
+}
+
+.profile-img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.scrollable-col {
+    max-height: none;
+    overflow-y: visible;
+    padding-left: 20px;
+}
+
+
+.top-header {
+    background-color: #fff;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+}
+
+.profile-img {
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.sticky-col {
+    position: sticky;
+    top: 20%;
+}
+
+.profile-img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.scrollable-col {
+    max-height: 90vh;
+    overflow-y: scroll;
+    padding-left: 20px;
+    padding-top: 50px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.scrollable-col::-webkit-scrollbar {
+    display: none;
+}
+
+h3 {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 31px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #29397B;
+}
+
+p,
+li {
+    font-size: 24px;
+    font-weight: 400;
+}
